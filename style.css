@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #e9e6c3;
+    margin: 0px;
+}
+header {
+    color: white;
+    background-image: linear-gradient(to top, #06401A, #197339, #238C48, #2DA657, #1D8D51);
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 25px;
+    font-family: "Voster";
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.253);
+    
+    
+}
+li {
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+    
+}
+nav {
+    background-color:#06401A;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.281);
+}
+.idnav {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav > a:hover {
+    background-color: #1D8D51;
+    color: #022a13;
+    transition: 1s;
+}
+
+p {
+    color: rgb(0, 0, 0); 
+    font-family: "Roboto Mono, sans-serif";
+    font-size: 20px;
+    text-indent: 30px;
+    
+
+}
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+}
+#p1 {
+    color: white;
+    font-family: "Roboto Mono";
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+}
+article {
+    color: #234639;
+    background-color: white;
+    padding: 8px;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.253);
+    margin: auto;
+    border-radius: 10px;
+
+}
+h2 {
+    font-family: 'Idroid';
+    text-align: left;
+    padding: 10px;
+    
+    
+}
+img {
+    width: 100%;
+}
+#img1 {
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356);
+}
+#img2 {
+    height: 300px;
+    
+}
+#div1 {
+    display: flex;
+    margin: 0px -20px 30px --20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;    
+    background-color: #022a13;
+}
+iframe {
+    position: absolute;
+    top: 5% ;
+    left: 5% ;
+    width: 90% ;
+    height: 90% ;
+}
+h3 {
+    color: white;
+    font-size: 24px;
+    background-color: #175c34;
+    padding: 5px;
+    border-radius: 7px 5px 2px 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+}
+#section2 {
+    background-color: #81e2ab;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    
+}
+
+div {
+    display: inline-block;
+}
+.destaque {
+    color: rgb(0, 0, 0); 
+    font-family: "Roboto Mono, sans-serif";
+    font-size: 18px;
+    text-indent: 30px;
+    padding: 8px;
+}
+.padrao {
+    color: rgb(0, 0, 0); 
+    font-family: "Roboto Mono, sans-serif";
+    font-size: 18px;
+    text-indent: 30px;
+    padding: 2px;
+}
+footer {
+    background-color: #022a13;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: #259555;
+}
+
